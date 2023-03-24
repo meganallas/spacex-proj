@@ -12,19 +12,22 @@ A `React` website for SpaceX that contains a countdown for their upcoming launch
 - **AWS** - EC2 and S3
 - **[Unofficial SpaceX API Key](https://github.com/r-spacex/SpaceX-API)**
 
+A `config.js` file is required in the server directory.  The config file should be similar to below
+```
+module.exports = {
+    MONGODB: {mongodb cluster url here},
+    SECRET_KEY: {secret key here}
+};
+```
 
 In the project directory, you can run:
-### `yarn install`
+### `npm install`
 
 Installs all project dependencies.
 
-### `yarn start`
+### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The server will run on [http://localhost:5000](http://localhost:5000).
 
 ### `^c`
 
