@@ -13,3 +13,5 @@ A `React` website for SpaceX that contains a countdown for their upcoming launch
 - **[Unofficial SpaceX API Key](https://github.com/r-spacex/SpaceX-API)**
 
 Created for SE-571 at Monmouth Univeristy.
+
+![Screenshot of the SpaceX Site](./screenshot.png)
